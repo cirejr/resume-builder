@@ -1,0 +1,29 @@
+{
+	"name": "api",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "nitro dev --port 8080",
+		"build": "nitro build",
+		"start": "node .output/server/index.mjs",
+		"preview": "nitro preview"
+	},
+	"devDependencies": {
+		"@playwright/test": "^1.58.0",
+		"@types/bun": "latest",
+		"drizzle-kit": "^0.31.8"
+	},
+	"peerDependencies": {
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@clerk/clerk-sdk-node": "^5.1.6",
+		"@neondatabase/serverless": "^1.0.2",
+		"drizzle-orm": "^0.45.1",
+		"nitropack": "^2.13.1",
+		"pg": "^8.18.0",
+		"playwright": "^1.58.0",
+		"zod": "^4.3.6"
+	}
+}

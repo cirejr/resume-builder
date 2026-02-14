@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "drizzle-kit": "^0.31.8",
+    "shadcn": "^3.8.0"
+  },
+  "dependencies": {
+    "@clerk/clerk-sdk-node": "^5.1.6",
+    "lucide-react": "^0.563.0"
+  }
+}
